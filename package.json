@@ -1,0 +1,26 @@
+{
+  "name": "whatsapp-web",
+  "version": "1.0.0",
+  "description": "replica de WhatsApp web",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anto-caroca/whatsapp-web.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "web"
+  ],
+  "author": "Antonella Caroca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anto-caroca/whatsapp-web/issues"
+  },
+  "homepage": "https://github.com/anto-caroca/whatsapp-web#readme"
+}
