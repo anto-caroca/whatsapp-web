@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/anto-caroca/whatsapp-web/issues"
   },
-  "homepage": "https://github.com/anto-caroca/whatsapp-web#readme"
+  "homepage": "https://github.com/anto-caroca/whatsapp-web#readme",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  }
 }
