@@ -1,5 +1,5 @@
-let password= document.getElementById('password');
 // module.exports = validatePassword;
+let password= document.getElementById('password');
 window.validatePassword = function validatePassword(){
     
 	let exp = /^[0-9]{6,8}$/;
@@ -13,12 +13,13 @@ window.validatePassword = function validatePassword(){
 
 }
 
+
+
 //Registro
 function registerWithFirebase(){
     const emailValue = email.value;
     const passwordValue = password.value;
-    const userName = document.getElementById('userName').value;
-    console.log('nombre usuari@: ' + userName);
+    
     validatePassword()
     firebase.auth().createUserWithEmailAndPassword(emailValue, passwordValue)
         .then(()=>{
@@ -27,7 +28,7 @@ function registerWithFirebase(){
         })
         .catch((error)=>{
             $('#myModal').modal();
-          //let msn = document.getElementById("modalP");
+         
          if (error.code) {
           msn.innerHTML = error.message;
        }
