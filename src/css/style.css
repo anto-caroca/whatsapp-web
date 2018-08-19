@@ -4,21 +4,51 @@ i{
     margin-top: 50px;
     margin-bottom: 35px;
 }
-form{
+#form{
     margin: auto;
-    width: 400px;
+    width: 407px;
 }
 
-body{
+
+body, .gray{
     background-color: #f2f2f2;
 }
 
-div{
+.gray{
+    padding-top: 25px;
+}
+
+.wspLogo{
     background-color: #009999;
-    width: 400px;
+    width: 407px;
     margin: auto;
 }
 
 h1{
     margin-top: 20px;
+    padding-bottom: 15px;
+}
+
+.modal-title{
+    font-size: 16px;
+    font-weight: 500;
+    color: #4A4A4A;
+    position: absolute;
+}
+
+.modal-header button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal-body {
+    font-size: 14px;
+    color: #4A4A4A;
+}
+
+ .modal-footer{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;     
 }
