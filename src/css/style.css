@@ -10,11 +10,11 @@ form{
 }
 
 body{
-    background-color: lightgray;
+    background-color: #f2f2f2;
 }
 
 div{
-    background-color: darkgreen;
+    background-color: #009999;
     width: 400px;
     margin: auto;
 }
