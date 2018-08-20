@@ -107,5 +107,20 @@
     background-color:  #e6e6e6;
 }
 
+#logout{
+    width:30px;
+    height: 30px;
+    font-size: 7px;
+    font-weight: bold;
+    margin-left: 75px;
+    margin-top: 8px;
+    
+}
+
+#pCerrarSesion{
+    margin-left: -8px;
+    margin-top: -2px;
+}
+
 
 
