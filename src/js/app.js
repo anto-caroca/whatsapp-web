@@ -3,10 +3,10 @@ window.onload = ()=>{
         if(user){
             //Si estamos logueados
             logout.style.display = "inline-block";
-            console.log("User > "+JSON.stringify(user));
+            //console.log("User > "+JSON.stringify(user));
             console.log(user.email);
             let displayName = document.getElementById('displayName');
-            console.log(displayName);
+            // console.log(displayName); // null
            // document.getElementById("emailP").innerHTML = user.email;
             
         }else{

@@ -1,11 +1,7 @@
-#inputM{
-    background-color: #e6e6e6;
-}
 
 #inputM input[type=text]{
-    width: 80%;
+    width: 100%;
     margin: auto;
-    margin-top: -28px;
 }
 
  .row{
@@ -57,7 +53,7 @@
 }
 
 .icons{
-    margin-left: 590px;
+    margin-left: 80%;
     margin-top: -45px;
     color: #808080;
     width: 80px;
@@ -79,7 +75,7 @@
     width: 50px;
     color: #808080;
     margin: 0px;
-    margin-left: 150px;
+    margin-left: 80%;
     margin-top: -30px;
 }
 
@@ -88,19 +84,35 @@
     cursor: pointer;
 }
 
-#smileIcon, #micIcon{
+
+.smileIcon, .micIcon{
     color: #808080;
-    margin-top: 20px;
     font-size: 20px;
     cursor: pointer;
+    width: 30px;
+    height: 30px;
+    flex:0.5;
 }
 
-#micIcon{
-    margin-left: 610px;
+.micIcon{
+    order:3;
 }
 
-#smileIcon{
-   margin-left: 10px;
+.micIcon i{
+margin-left: 30px;
+}
+
+.smileIcon{
+ order:1;
+}
+
+.smileIcon i{
+margin-left: 10px;
+}
+
+.divMsn{
+    flex:5;
+    order:2;
 }
 
 #col5{
@@ -112,9 +124,8 @@
     height: 30px;
     font-size: 7px;
     font-weight: bold;
-    margin-left: 75px;
+    margin-left: 20%;
     margin-top: 8px;
-    
 }
 
 #pCerrarSesion{
@@ -122,5 +133,15 @@
     margin-top: -2px;
 }
 
+@media(min-width:468px){
+    #inputM{
+        background-color: #e6e6e6;
+        display: flex;
+    }    
+}
+
+#inputM div{
+    margin-top: 10px;
+}
 
 
