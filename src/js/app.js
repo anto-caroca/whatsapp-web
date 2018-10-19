@@ -17,7 +17,7 @@ window.onload = ()=>{
   }
 
   const firestore = firebase.firestore();
-  const settings = {/* your settings... */ 
+  const settings = {// your settings... 
    timestampsInSnapshots: true};
  firestore.settings(settings);
 
